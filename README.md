@@ -23,9 +23,9 @@ This project is a fully functional **Customer Satisfaction Survey Form** built u
    ```bash
    git clone https://github.com/swayamcodergit/Survey-Form.git
 
-##Contributions
+## Contributions
 Contributions, suggestions, and feedback are welcome!
 Feel free to fork the repository and create pull requests.
 
-##License
+## License
 This project is open-source and available under the MIT License.
