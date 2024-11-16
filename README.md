@@ -17,3 +17,15 @@ This project is a fully functional **Customer Satisfaction Survey Form** built u
 ## Use Cases
 - Feedback collection for e-commerce platforms.
 - Learning project for HTML form creation and input validation.
+
+## How to Use
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/swayamcodergit/Survey-Form.git
+
+##Contributions
+Contributions, suggestions, and feedback are welcome!
+Feel free to fork the repository and create pull requests.
+
+##License
+This project is open-source and available under the MIT License.
