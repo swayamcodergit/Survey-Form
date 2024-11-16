@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Participate in our Customer Satisfaction Survey to provide valuable feedback on your shopping experience. Help us improve our products, website, and services. Your input matters!"
+    />
+    <title>Survey Form</title>
+  </head>
+  <body>
+    <header>
+      <h1>Customer Satisfaction Survey</h1>
+      <p>
+        Thank you for shopping with us! Please take a moment to complete this
+        survey so we can improve your shopping experience.
+      </p>
+    </header>
+    <hr />
+    <main>
+      <form action="#" method="post">
+        <!-- Customer Information -->
+        <h2>Your Information</h2>
+        <label for="name">Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          minlength="3"
+          placeholder="Enter your name"
+        />
+        <br /><br />
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          placeholder="Enter your email"
+        />
+        <br /><br />
+        <label for="age">Age:</label>
+        <input
+          type="number"
+          id="age"
+          name="age"
+          required
+          min="18"
+          max="100"
+          placeholder="Enter your age"
+        />
+        <br /><br />
+
+        <!-- Shopping Experience -->
+        <h2>Shopping Experience</h2>
+        <fieldset>
+          <legend>Overall Satisfaction:</legend>
+          <input
+            type="radio"
+            id="very-satisfied"
+            name="satisfaction"
+            value="very satisfied"
+            required
+          />
+          <label for="very-satisfied">Very Satisfied</label><br />
+          <input
+            type="radio"
+            id="satisfied"
+            name="satisfaction"
+            value="satisfied"
+          />
+          <label for="satisfied">Satisfied</label><br />
+          <input
+            type="radio"
+            id="neutral"
+            name="satisfaction"
+            value="neutral"
+          />
+          <label for="neutral">Neutral</label><br />
+          <input
+            type="radio"
+            id="dissatisfied"
+            name="satisfaction"
+            value="dissatisfied"
+          />
+          <label for="dissatisfied">Dissatisfied</label><br />
+          <input
+            type="radio"
+            id="very-dissatisfied"
+            name="satisfaction"
+            value="very dissatisfied"
+          />
+          <label for="very-dissatisfied">Very Dissatisfied</label>
+        </fieldset>
+        <br />
+
+        <label for="ease-of-use"
+          >How easy was it to navigate our website?</label
+        >
+        <br />
+        <input
+          type="range"
+          id="ease-of-use"
+          name="ease_of_use"
+          min="1"
+          max="5"
+        />
+        <small>1 = Very Difficult, 5 = Very Easy</small>
+        <br /><br />
+
+        <label for="product-quality">Product Quality:</label>
+        <select id="product-quality" name="product_quality" required>
+          <option value="">Select</option>
+          <option value="excellent">Excellent</option>
+          <option value="good">Good</option>
+          <option value="average">Average</option>
+          <option value="poor">Poor</option>
+          <option value="very poor">Very Poor</option>
+        </select>
+        <br /><br />
+
+        <fieldset>
+          <legend>Shipping Experience:</legend>
+          <input type="checkbox" id="on-time" name="shipping" value="on-time" />
+          <label for="on-time">On Time</label><br />
+          <input type="checkbox" id="fast" name="shipping" value="fast" />
+          <label for="fast">Fast</label><br />
+          <input type="checkbox" id="delayed" name="shipping" value="delayed" />
+          <label for="delayed">Delayed</label>
+        </fieldset>
+        <br />
+
+        <!-- Feedback Section -->
+        <h2>Additional Feedback</h2>
+        <label for="feedback">Your Feedback:</label><br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          rows="4"
+          cols="50"
+          placeholder="Enter your feedback"
+        ></textarea>
+        <br /><br />
+
+        <!-- Submit Button -->
+        <button type="submit">Submit Survey</button>
+      </form>
+    </main>
+    <hr />
+    <footer>
+      <p>Thank you for your valuable feedback!</p>
+      <p>
+        If you have any questions, please reach out to us at
+        <a href="mailto:support@example.com">support@example.com</a>.
+      </p>
+      <p>
+        Your responses are confidential and will help us improve our services.
+      </p>
+      <p>&copy; 2024 Survey Company. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
